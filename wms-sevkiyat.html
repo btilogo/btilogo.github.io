@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WMS &amp; Sevkiyat Planlama — Logo Köprüsü</title>
+  <meta name="description" content="Üretim planından depo karşılamaya, stoktan sevke: Logo ile WMS ve sevkiyat planlama akışı.">
+  <meta name="theme-color" content="#0b5cad">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+  <symbol id="i-bridge" viewBox="0 0 24 24"><path d="M2 18c3.5-7 7-7 10-7s6.5 0 10 7M2 18h20M7 11V6M12 11V4M17 11V6M5 18v3M19 18v3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+  <symbol id="i-factory" viewBox="0 0 24 24"><path d="M3 21V9l6 4V9l6 4V5h6v16z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M7 21v-3M11 21v-3M15 21v-3M19 21v-3" stroke="currentColor" stroke-width="1.8"/></symbol>
+  <symbol id="i-truck" viewBox="0 0 24 24"><path d="M2 7h12v10H2zM14 10h4l3 3v4h-7z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="6" cy="18" r="2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17" cy="18" r="2" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+  <symbol id="i-box" viewBox="0 0 24 24"><path d="M3 7l9-4 9 4v10l-9 4-9-4z M3 7l9 4 9-4 M12 11v10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+  <symbol id="i-layers" viewBox="0 0 24 24"><path d="M12 3l9 5-9 5-9-5zM3 13l9 5 9-5M3 17.5l9 5 9-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+  <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3 10h18M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-link" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+  <symbol id="i-cog" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+  <symbol id="i-db" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="8" ry="3" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M21 21l-5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-barcode" viewBox="0 0 24 24"><path d="M4 6v12M8 6v12M11 6v12M15 6v12M18 6v12M20 6v12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+  <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+  <symbol id="i-receipt" viewBox="0 0 24 24"><path d="M6 2h12v20l-3-2-3 2-3-2-3 2zM9 8h6M9 12h6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+  <symbol id="i-plug" viewBox="0 0 24 24"><path d="M9 2v6M15 2v6M6 8h12v4a6 6 0 0 1-12 0zM12 18v4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-cart" viewBox="0 0 24 24"><circle cx="9" cy="21" r="1.2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="19" cy="21" r="1.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M2 3h3l2.7 12.4a2 2 0 0 0 2 1.6h9.6a2 2 0 0 0 2-1.6L23 7H6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+  <symbol id="i-card" viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M2 10h20M6 15h4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+  <symbol id="i-doc" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M8 13h8M8 17h5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M2 21a7 7 0 0 1 14 0M16 3a4 4 0 0 1 0 8M22 21a7 7 0 0 0-5-6.7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5z M9 12l2 2 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></symbol>
+  <symbol id="i-flask" viewBox="0 0 24 24"><path d="M9 3h6M10 3v6l-5 9a2 2 0 0 0 2 3h10a2 2 0 0 0 2-3l-5-9V3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></symbol>
+  <symbol id="i-coin" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M15 9.5c-.5-1-1.6-1.5-3-1.5-1.7 0-3 .9-3 2.2 0 3 6 1.6 6 4.3 0 1.3-1.3 2.2-3 2.2-1.5 0-2.6-.6-3-1.6M12 6v2M12 16v2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+  <symbol id="i-sign" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M9 15l2 2 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18 14 14 0 0 1 0-18" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M2 6l10 7 10-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+</svg>
+  <a class="skip" href="#icerik">İçeriğe geç</a>
+
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="index.html" aria-label="Logo Köprüsü ana sayfa">
+        <span class="brand-mark"><svg class="icon" aria-hidden="true"><use href="#i-bridge"/></svg></span>
+        <span>Logo Köprüsü<small>by BTI Danışmanlık</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">Menü</button>
+      <ul class="menu" id="site-menu">
+        <li><a href="index.html">Ana Sayfa</a></li>
+        <li><a href="planlama.html">Prodmaster Planlama</a></li>
+        <li><a href="wms-sevkiyat.html" aria-current="page">WMS &amp; Sevkiyat</a></li>
+        <li><a href="entegrasyonlar.html">Entegrasyonlar</a></li>
+        <li><a href="https://www.btidanismanlik.com/" rel="noopener">BTI Danışmanlık ↗</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="icerik">
+    <div class="hero-page">
+      <div class="wrap">
+        <p class="eyebrow"><svg class="icon" aria-hidden="true" width="16" height="16"><use href="#i-truck"/></svg> Depo · Lojistik · Logo</p>
+        <h1>WMS ve sevkiyat planlama</h1>
+        <p class="lead">Üretimin ihtiyaç duyduğu malzeme depodan nasıl karşılanır, stoktan sevk nasıl planlanır, sevkiyat belgeleri Logo'ya nasıl döner? Bu sayfa, planlama ile depo arasındaki bağlantıyı adım adım anlatır.</p>
+      </div>
+    </div>
+
+    <!-- Akış -->
+    <section style="padding-top:12px">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Veri akışı</p>
+          <h2>Logo merkezde, depo ve sevkiyat onun etrafında</h2>
+          <p class="muted">Depo sistemi ve planlama ayrı uygulamalardır; ortak dil Logo'daki fişlerdir. Her adım bir Logo belgesi bırakır, böylece herkes aynı kaydı görür.</p>
+        </div>
+
+        <div class="mock" style="padding:24px">
+          <div class="flow">
+            <div class="flow-step"><svg class="icon" aria-hidden="true"><use href="#i-db"/></svg><strong>1 · Logo kayıtları</strong><span>Sipariş, stok, üretim emri, reçete</span></div>
+            <div class="flow-step"><svg class="icon" aria-hidden="true"><use href="#i-factory"/></svg><strong>2 · Planlama</strong><span>MRP, çeki listesi, stoktan sevk planı</span></div>
+            <div class="flow-step"><svg class="icon" aria-hidden="true"><use href="#i-receipt"/></svg><strong>3 · Talep fişi</strong><span>Logo'da "ambardan karşılanacak" fiş</span></div>
+            <div class="flow-step"><svg class="icon" aria-hidden="true"><use href="#i-box"/></svg><strong>4 · WMS</strong><span>Depo fişi okur, malzemeyi karşılar</span></div>
+            <div class="flow-step"><svg class="icon" aria-hidden="true"><use href="#i-truck"/></svg><strong>5 · Sevkiyat</strong><span>Sevk ve irsaliye belgeleri</span></div>
+          </div>
+          <p class="mock-caption" style="padding:16px 0 0">Örnek akış. Hangi belgenin kullanılacağı, her kurulumda firmanın süreçlerine göre netleştirilir.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Talep fişi -->
+    <section style="padding-top:0">
+      <div class="wrap module-grid">
+        <div>
+          <p class="eyebrow">Örnek: çeki listesinden depoya</p>
+          <h2>WMS talep fişini nasıl okur?</h2>
+          <p class="lead">WMS, Prodmaster'dan ayrı bir dosya ya da servis çağrısı almaz. Planlama, Logo'da bir talep fişi açar; depo sistemi o fişi okuyup kendi işini yapar.</p>
+          <ul class="feature-list">
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span><strong>Kaynak.</strong> Fişin belge özel kodu, bu talebin planlama çeki listesinden geldiğini gösterir.</span></li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span><strong>Nasıl karşılanacak.</strong> Satın alma ya da üretim emri açılmaz; malzeme ambardan çekilir.</span></li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span><strong>Hangi depodan.</strong> Kaynak ambar, satırda temin edilecek depoyu belirtir.</span></li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span><strong>Kaç parça.</strong> Çekim sayısı birden büyükse aynı malzeme birkaç satıra bölünür; her satır bir çekimdir.</span></li>
+          </ul>
+        </div>
+
+        <figure class="mock" style="margin:0">
+          <div class="mock-bar"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><span class="title">Logo · Talep fişi (örnek)</span></div>
+          <div class="slip" style="margin:16px">
+            <div class="slip-head">
+              <strong>BTIPLN-000482</strong>
+              <span class="pill">Ambardan karşılanacak</span>
+            </div>
+            <dl>
+              <dt>Belge kaynağı</dt><dd>Prodmaster · Çeki listesi</dd>
+              <dt>Karşılama</dt><dd>Ambardan (stoktan)</dd>
+              <dt>Kaynak ambar</dt><dd>Koltuk depo · 23</dd>
+              <dt>Malzeme</dt><dd>Hammadde 01 · Süt tozu</dd>
+              <dt>Miktar</dt><dd>360 KG</dd>
+              <dt>Çekim</dt><dd>1 / 3 (120 KG'lık 3 satır)</dd>
+              <dt>Kullanıcı</dt><dd>Programa giriş yapan Logo kullanıcısı</dd>
+            </dl>
+          </div>
+          <p class="mock-caption">Örnek fiş · değerler temsilidir.</p>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Kapsam -->
+    <section style="padding-top:0">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Neleri kapsar</p>
+          <h2>Depo ve sevkiyat tarafında yaptığımız işler</h2>
+        </div>
+        <div class="grid grid-2">
+          <article class="card">
+            <span class="card-icon teal"><svg class="icon" aria-hidden="true"><use href="#i-receipt"/></svg></span>
+            <h3>Talep ve karşılama</h3>
+            <p>Üretim ihtiyacından doğan talep fişlerinin depoda nasıl karşılanacağını tanımlarız. Açık besleme talepleri çifte sayılmaz.</p>
+          </article>
+          <article class="card">
+            <span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-cart"/></svg></span>
+            <h3>Stoktan sevk planı</h3>
+            <p>Açık siparişleri ve stoğu karşılaştırarak hangi siparişin hangi stoktan sevk edileceğini planlayan araçlar kurarız.</p>
+          </article>
+          <article class="card">
+            <span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-truck"/></svg></span>
+            <h3>Sevkiyat belgeleri</h3>
+            <p>Sevkiyat kayıtlarını ve ithalat fişlerini Excel ya da Logo üzerinden Logo'ya aktarırız; belgeler muhasebe ile tutarlı kalır.</p>
+          </article>
+          <article class="card">
+            <span class="card-icon teal"><svg class="icon" aria-hidden="true"><use href="#i-link"/></svg></span>
+            <h3>Depo ile senkron</h3>
+            <p>WMS ile Logo arasındaki stok ve fiş hareketlerini eşleyen servisleri, hata durumunda yeniden deneme ve kayıt mantığıyla kurarız.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SSS -->
+    <section style="padding-top:0">
+      <div class="wrap module-grid">
+        <div>
+          <p class="eyebrow">Sık sorulanlar</p>
+          <h2>Akışla ilgili merak edilenler</h2>
+          <p class="lead">Teknik ayrıntı istiyorsanız, entegrasyon kataloğunda ilgili projeleri bulabilirsiniz.</p>
+          <div class="btn-row">
+            <a class="btn" href="entegrasyonlar.html?kategori=WMS%20%26%20Sevkiyat">WMS ve sevkiyat projeleri</a>
+          </div>
+        </div>
+        <div>
+          <details class="faq" open>
+            <summary>WMS'e ayrı bir dosya ya da servis çağrısı gidiyor mu?</summary>
+            <p>Bu akışta gitmez. Planlama, Logo'da talep fişi açar; WMS bu fişi Logo üzerinden okur. Böylece depo tarafı için tek doğru kaynak Logo olur.</p>
+          </details>
+          <details class="faq">
+            <summary>Malzemenin çekileceği depo ile beslendiği koltuk depo ayrı olabilir mi?</summary>
+            <p>Mevcut kurulumda temin ambarı üretim emri satırından alındığı için ikisi aynı numaradır. Ayrı bir hedef depo gerekirse fişe ayrı bir alan eklenir; bu bir kurulum kararıdır.</p>
+          </details>
+          <details class="faq">
+            <summary>Sevkiyat belgesi irsaliye mi, ambar fişi mi olur?</summary>
+            <p>Bu, firmanın sevkiyat süreciyle belirlenir. Logo'da hangi belgenin oluşacağını süreç analizinde birlikte netleştiririz.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section style="padding-top:0">
+      <div class="wrap">
+        <div class="cta">
+          <div>
+            <h2>Depo ve sevkiyat sürecinizi haritalayalım</h2>
+            <p>Mevcut WMS'iniz, sevkiyat belgeleriniz ve Logo kurulumunuzla birlikte bir akış önerisi hazırlayalım.</p>
+          </div>
+          <div class="btn-row" style="margin:0">
+            <a class="btn" href="https://www.btidanismanlik.com/" rel="noopener">Bizimle iletişime geçin</a>
+            <a class="btn btn-ghost" href="planlama.html">Üretim planlamaya dön</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© BTI Danışmanlık · WMS &amp; Sevkiyat Planlama</span>
+      <nav aria-label="Alt bağlantılar">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="planlama.html">Prodmaster Planlama</a>
+        <a href="entegrasyonlar.html">Entegrasyonlar</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
