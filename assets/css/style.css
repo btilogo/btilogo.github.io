@@ -391,3 +391,8 @@ details.faq p { color: var(--muted); margin: 12px 0 0; }
 /* Taşma koruması: grid çocukları dar ekranda genişlemesin */
 .hero-grid > *, .module-grid > *, .grid > * { min-width: 0; }
 .bridge, .hero h1, .hero .lead { overflow-wrap: break-word; }
+
+/* Dört kartlık ürün ızgarası */
+.grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+@media (max-width: 1100px) { .grid-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 640px) { .grid-4 { grid-template-columns: minmax(0, 1fr); } }

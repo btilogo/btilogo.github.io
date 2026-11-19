@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Entegrasyon Kataloğu — Logo Ekosistemi</title>
+  <title>Entegrasyon Kataloğu — BTI Logo Çözümleri</title>
   <meta name="description" content="Logo'a bağlanan entegrasyon projeleri: WMS ve sevkiyat, e-belge, ödeme ve tahsilat, e-ticaret ve POS, döviz kuru, İK ve veri aktarımı.">
   <meta name="theme-color" content="#0b5cad">
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
@@ -44,14 +44,15 @@
 
   <header class="site-header">
     <div class="wrap nav">
-      <a class="brand" href="index.html" aria-label="Logo Ekosistemi ana sayfa">
+      <a class="brand" href="index.html" aria-label="BTI Logo Çözümleri ana sayfa">
         <span class="brand-mark"><svg class="icon" aria-hidden="true"><use href="#i-bridge"/></svg></span>
-        <span>Logo Ekosistemi<small>by BTI Danışmanlık</small></span>
+        <span>BTI Logo Çözümleri<small>by BTI Danışmanlık</small></span>
       </a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">Menü</button>
       <ul class="menu" id="site-menu">
         <li><a href="index.html">Ana Sayfa</a></li>
-        <li><a href="planlama.html">Prodmaster Planlama</a></li>
+        <li><a href="prodmaster.html">BTI Prodmaster</a></li>
+        <li><a href="btisend.html">BTI Send</a></li>
         <li><a href="wms-sevkiyat.html">WMS &amp; Sevkiyat</a></li>
         <li><a href="entegrasyonlar.html" aria-current="page">Entegrasyonlar</a></li>
         <li><a href="https://www.btidanismanlik.com/" rel="noopener">BTI Danışmanlık ↗</a></li>
@@ -90,7 +91,7 @@
           </div>
         </div>
 
-        <p class="count" data-count aria-live="polite">25 entegrasyon gösteriliyor</p>
+        <p class="count" data-count aria-live="polite">27 entegrasyon gösteriliyor</p>
 
         <div class="grid grid-3" data-catalog>
           <!-- WMS & Sevkiyat -->
@@ -157,8 +158,8 @@
           <article class="card" data-category="Üretim &amp; Planlama">
             <span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-factory"/></svg></span>
             <span class="tag">Üretim &amp; Planlama</span>
-            <h3>Prodmaster Planlama</h3>
-            <p>MPS, MRP, çeki listesi, dolum makinesi çizelgeleme, reçete maliyet ve üretim–sarf teyidi. <a href="planlama.html">Modülleri gör →</a></p>
+            <h3>BTI Prodmaster</h3>
+            <p>MPS, MRP, çeki listesi, dolum makinesi çizelgeleme, reçete maliyet ve üretim–sarf teyidi. <a href="prodmaster.html">Modülleri gör →</a></p>
           </article>
           <article class="card" data-category="Üretim &amp; Planlama">
             <span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-cog"/></svg></span>
@@ -177,17 +178,24 @@
           <article class="card" data-category="E-Belge &amp; EDI">
             <span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg></span>
             <span class="tag">E-Belge &amp; EDI</span>
-            <h3>E-belge gönderimi</h3>
-            <p>E-fatura ve diğer e-belgelerin gönderimi ve takibi için Logo bağlantılı dijital platform.</p>
+            <h3>Otomatik e-belge gönderimi</h3>
+            <p>E-fatura ve diğer e-belgelerin kuyrukla gönderimi, durum takibi ve e-posta bildirimi. BTI Send ile çalışır.</p>
           </article>
           <article class="card" data-category="E-Belge &amp; EDI">
             <span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-sign"/></svg></span>
             <span class="tag">E-Belge &amp; EDI</span>
-            <h3>Otomatik fatura</h3>
-            <p>Tanımlı kurallara göre faturaların otomatik oluşturulması ve Logo'ya işlenmesi.</p>
+            <h3>Toplu ve otomatik faturalama</h3>
+            <p>Tanımlı kurallara göre sipariş ve sevkiyatların toplu faturalanması; fatura kaynak belgeleriyle Logo'da bağlanır. BTI Send ile çalışır.</p>
           </article>
 
           <!-- Ödeme & Tahsilat -->
+          <article class="card" data-category="Ödeme &amp; Tahsilat">
+            <span class="card-icon teal"><svg class="icon" aria-hidden="true"><use href="#i-card"/></svg></span>
+            <span class="tag">Ödeme &amp; Tahsilat</span>
+            <h3>Banka akıbet ve borç hatırlatma</h3>
+            <p>Bankalara gönderilecek akıbet dosyalarının hazırlanması ve vadesi geçen bakiyeler için otomatik borç hatırlatmaları. BTI Send ile çalışır.</p>
+          </article>
+
           <article class="card" data-category="Ödeme &amp; Tahsilat">
             <span class="card-icon teal"><svg class="icon" aria-hidden="true"><use href="#i-card"/></svg></span>
             <span class="tag">Ödeme &amp; Tahsilat</span>
@@ -205,7 +213,13 @@
           <article class="card" data-category="E-Ticaret &amp; POS">
             <span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-cart"/></svg></span>
             <span class="tag">E-Ticaret &amp; POS</span>
-            <h3>Omniens ↔ Logo (TeHa)</h3>
+            <h3>RobotPOS ↔ Logo</h3>
+            <p>RobotPOS satış verilerinin Logo'ya aktarımı. Aktarım kayıtları tutulur; hatalı kayıtlar listelenerek tekrar işlenebilir.</p>
+          </article>
+          <article class="card" data-category="E-Ticaret &amp; POS">
+            <span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-cart"/></svg></span>
+            <span class="tag">E-Ticaret &amp; POS</span>
+            <h3>Omniens ↔ Logo</h3>
             <p>Omniens mağaza ve kanal satışlarının Logo'ya aktarılması; sipariş iptal akışları dahil. WebApi ve Windows Service ile çalışır.</p>
           </article>
           <article class="card" data-category="E-Ticaret &amp; POS">
@@ -288,7 +302,7 @@
       <span>© BTI Danışmanlık · Entegrasyon kataloğu</span>
       <nav aria-label="Alt bağlantılar">
         <a href="index.html">Ana Sayfa</a>
-        <a href="planlama.html">Prodmaster Planlama</a>
+        <a href="prodmaster.html">BTI Prodmaster</a>
         <a href="wms-sevkiyat.html">WMS &amp; Sevkiyat</a>
       </nav>
     </div>
